@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/form.css" />
+  <link rel="shortcut icon" type="image/png" href="img/kj-logo.png">
+
+  <title>Ken Jones Real Estate School</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="img/kj-logo.png" alt="trillo logo" class="logo">
+
+
+      <h1 class="header-title">
+        <ul class="header-title__li">
+          <li class="header-title__top">Ken Jones LLC</li>
+          <li class="header-title__bottom">Real Estate School</li>
+        </ul>
+      </h1>
+
+      <nav class="user-nav">
+
+        <div class="user-nav__user">
+          <img src="img/kj-logo.png" alt="User photo" class="user-nav__user-photo">
+          <span class="user-nav__user-name"></span>
+        </div>
+      </nav>
+    </header>
+
+
+    <div class="content">
+      <nav class="sidebar">
+        <ul class="side-nav">
+          <li class="side-nav__item side-nav__item--active">
+            <a href="#" class="side-nav__link">
+              <svg class="side-nav__icon">
+                <use xlink:href="img/sprite.svg#icon-home"></use>
+              </svg>
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="side-nav__item">
+            <a href="#" class="side-nav__link">
+              <svg class="side-nav__icon">
+                <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+              </svg>
+              <span>Online Classes</span>
+            </a>
+          </li>
+          <li class="side-nav__item">
+            <a href="#" class="side-nav__link">
+              <svg class="side-nav__icon">
+                <use xlink:href="img/sprite.svg#icon-key"></use>
+              </svg>
+              <span>Live Classes</span>
+            </a>
+          </li>
+          <li class="side-nav__item">
+            <a href="#" class="side-nav__link">
+              <svg class="side-nav__icon">
+                <use xlink:href="img/sprite.svg#icon-map"></use>
+              </svg>
+              <span>Reserve Your Seat!</span>
+            </a>
+          </li>
+          <li class="side-nav__item">
+            <a href="#" class="side-nav__link">
+              <svg class="side-nav__icon">
+                <use xlink:href="img/sprite.svg#icon-map"></use>
+              </svg>
+              <span>FAQ</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="legal">
+          &copy; 2018 Ken Jones LLC. All rights reserved.
+        </div>
+      </nav>
+
+
+
+      <main class="hotel-view">
+        <div class="gallery">
+          <figure class="gallery__item">
+            <img src="img/ocala.jpg" alt="Photo of hotel 1" class="gallery__photo">
+          </figure>
+          <figure class="gallery__item">
+            <img src="img/ocala-forest.jpg" alt="Photo of hotel 2" class="gallery__photo">
+          </figure>
+          <figure class="gallery__item">
+            <img src="img/ken-card.jpg" alt="Photo of hotel 3" class="gallery__photo">
+          </figure>
+        </div>
+
+
+
+        <div class="detail">
+          <div class="description-2">
+            <center>
+              <h1>Live Classes Ocala</h1>
+            </center>
+            <div id="page-wrap">
+              <div id="contact-area">
+
+                <form method="post" action="contactengine.php">
+                  <label for="Name">Name:</label>
+                  <input type="text" name="Name" id="Name" />
+
+                  <label for="Phone">Phone:</label>
+                  <input type="text" name="Phone" id="City" />
+
+                  <label for="Email">Email:</label>
+                  <input type="text" name="Email" id="Email" />
+
+                  <label for="Message">Message:</label>
+                  <br />
+                  <textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+
+                  <input type="submit" name="submit" value="Submit" class="submit-button" />
+                </form>
+
+                <div style="clear: both;"></div>
+
+                <p class="paragraph">
+                  After you submit your info you will be taken to a PayPal scure site to make your deposit.
+                  <p class="paragraph">A deposit of $45 secures a place in class. The remaining balance is due on the first day of class. No more than 8 hours total in absences. Your textbook will be issued on the first day of class. All deposits are non refundable .</p>
+                
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+
+        </div>
+
+        <div class="cta">
+          <h2 class="cta__book-now">
+            Good news! We have 4 free rooms for your selected dates!
+          </h2>
+          <button class="btn">
+            <span class="btn__visible">Book now</span>
+            <span class="btn__invisible">Only 4 rooms left</span>
+          </button>
+        </div>
+
+    </div>
+
+
+    </main>
+  </div>
+  </div>
+</body>
+
+</html>
