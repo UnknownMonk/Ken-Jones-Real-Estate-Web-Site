@@ -6,7 +6,7 @@ $Subject = "Booking dates for class";
 $Name = Trim(stripslashes($_POST['Name'])); 
 $Tel = Trim(stripslashes($_POST['Tel'])); 
 $Email = Trim(stripslashes($_POST['Email'])); 
-$Message = Trim(stripslashes($_POST['Message'])); 
+$Class = Trim(stripslashes($_POST['Class'])); 
 
 // validation
 $validationOK=true;
@@ -26,8 +26,8 @@ $Body .= "\n";
 $Body .= "Email: ";
 $Body .= $Email;
 $Body .= "\n";
-$Body .= "Message: ";
-$Body .= $Message;
+$Body .= "Class: ";
+$Body .= $Class;
 $Body .= "\n";
 
 // send email 

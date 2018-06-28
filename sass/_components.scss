@@ -335,6 +335,9 @@
     margin-bottom: 2rem;
 }
 
+.paragraph-2 {
+    margin-top: 2rem;
+}
 
 
 ////////////////////////////////////////
@@ -524,7 +527,11 @@
 
     
 }
-
+.button {
+  display: block;
+  border-bottom: 2px solid var(--color-grey-light-4);
+  padding-bottom: 1rem;
+}
 .button-1 {
   display: flex;
   justify-content: flex-end;
@@ -536,4 +543,50 @@
     margin-bottom: 3rem;
     
 }
+
+
+
+
+////////////////////////////////////////
+// UL STYLE
+.online-links {
+font-size: 2.5rem;
+list-style-type: none;
+
+
+
+
+
+
+
+
+    &__lis {
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        
+        
+        
+    }
+}
+
+////////////////////////////////////////
+// SCHEDULE
+
+.schedule {
+display: flex;
+justify-content: space-between;
+margin-top: 3rem;
+border-bottom: 2px solid var(--color-grey-light-4);
+    &__left {
+        text-align: center;
+        width: 30%;
+        
+    }
+
+    &__right {
+        text-align: center;
+        width: 30%;
+    }
+}
+
 

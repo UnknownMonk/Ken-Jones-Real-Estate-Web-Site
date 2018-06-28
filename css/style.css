@@ -129,6 +129,27 @@ body {
       margin-right: 0;
       margin-bottom: 3rem; } }
 
+.description-3 {
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  flex: 0 0 100%;
+  margin-right: 4.5rem; }
+  .description-3__price {
+    font-size: 3rem; }
+    .description-3__price__left {
+      font-size: 20rem; }
+    .description-3__price__right {
+      text-align: center; }
+  @media only screen and (max-width: 56.25em) {
+    .description-3 {
+      padding: 2rem;
+      margin-right: 3rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .description-3 {
+      margin-right: 0;
+      margin-bottom: 3rem; } }
+
 .user-reviews {
   flex: 1;
   display: flex;
@@ -351,6 +372,9 @@ body {
 .paragraph:not(:last-of-type) {
   margin-bottom: 2rem; }
 
+.paragraph-2 {
+  margin-top: 2rem; }
+
 .list {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -468,6 +492,11 @@ body {
     outline: none;
     animation: pulsate 1s infinite; }
 
+.button {
+  display: block;
+  border-bottom: 2px solid var(--color-grey-light-4);
+  padding-bottom: 1rem; }
+
 .button-1 {
   display: flex;
   justify-content: flex-end; }
@@ -476,3 +505,22 @@ body {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 3rem; }
+
+.online-links {
+  font-size: 2.5rem;
+  list-style-type: none; }
+  .online-links__lis {
+    margin-bottom: 2rem;
+    margin-top: 2rem; }
+
+.schedule {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  border-bottom: 2px solid var(--color-grey-light-4); }
+  .schedule__left {
+    text-align: center;
+    width: 30%; }
+  .schedule__right {
+    text-align: center;
+    width: 30%; }
