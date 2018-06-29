@@ -122,26 +122,7 @@
     &__price {
         font-size: 3rem;
 
-        &__left {
-            font-size: 20rem;
-        }
-
-        &__right {
-            text-align: center;
-        }
-
-
-        &__block1 {
-            
-        }
-
-        &__block2 {
-
-        }
-
-        &__block3 {
-
-        }
+        
     }
     @media only screen and (max-width: $bp-medium) {
         padding: 2rem;
