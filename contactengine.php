@@ -1,7 +1,7 @@
 <?php
 
 $EmailFrom = "kenjonesrealestateschool.com";
-$EmailTo = "KenJonesRealEstateSchool@gmail.com";
+$EmailTo = "kenjones77777@yahoo.com";
 $Subject = "Booking dates for class";
 $Name = Trim(stripslashes($_POST['Name'])); 
 $Tel = Trim(stripslashes($_POST['Tel'])); 

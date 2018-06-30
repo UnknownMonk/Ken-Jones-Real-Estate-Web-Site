@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+
+SITEMAP: http://www.advancedhtml.co.uk/sitemap.txt
