@@ -28,6 +28,9 @@
         align-content: space-around;
         height: 11rem;
     }
+    @media only screen and (max-width: $bp-ex-smallest) {
+       justify-content: center;
+    }
 }
 
 .content {
@@ -60,6 +63,8 @@
     padding: 4.5rem;
     background-color: var(--color-grey-light-1);
     border-bottom: var(--line);
+
+
 
     @media only screen and (max-width: $bp-medium) {
         padding: 3rem;
@@ -101,6 +106,8 @@
     &__price {
         font-size: 3rem;
     }
+
+    
     @media only screen and (max-width: $bp-medium) {
         padding: 2rem;
         margin-right: 3rem;
@@ -133,6 +140,39 @@
         margin-bottom: 3rem;
     }
 }
+
+.description-4 {
+    background-color: #fff;
+    box-shadow: var(--shadow-light);
+    padding: 3rem;
+    flex: 0 0 100%;
+    margin-right: 4.5rem;
+    &__price {
+        font-size: 3rem;
+
+        
+    }
+
+    &__pay {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    
+    @media only screen and (max-width: $bp-medium) {
+        padding: 2rem;
+        margin-right: 3rem;
+    }
+    @media only screen and (max-width: $bp-small) {
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+}
+
+
+
+
 
 .user-reviews {
     flex: 1;
